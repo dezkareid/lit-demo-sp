@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <script type="module" src="header-demo.js"></script>
+  <script type="module" src="header-brand.js"></script>
+  <title>Lit Demo</title>
+</head>
+<body>
+  <!--<header-demo>
+    <div slot="branding">
+      <img slot="isotipe" class="Image" loading="lazy" src="https://static.platzi.com/media/platzi-isotipo@2x.png" alt="Platzi isotipo" height="25">
+      <img slot="logotipe"  loading="lazy" src="https://static.platzi.com/media/logotipo-platzi.png" alt="Platzi Logo" height="25">
+    </div>
+  </header-demo>-->
+  <header-demo>
+    <header-brand
+      href="https://platzi.com"
+      loading-strategy="lazy"
+      isotipeURL="https://static.platzi.com/media/platzi-isotipo@2x.png" 
+      isotipeAlt="Platzi isotipo"
+      logotipeURL="https://static.platzi.com/media/logotipo-platzi.png"
+      logotipeAlt="Platzi Logo"
+      slot="branding">
+    </header-brand>
+  </header-demo>
+</body>
+</html>
