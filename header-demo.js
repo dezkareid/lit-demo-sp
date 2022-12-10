@@ -7,7 +7,7 @@ export class HeaderDemo extends LitElement {
   }
   
   .header {
-    background: #121f3d;
+    background: black ;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: auto 1fr auto;
